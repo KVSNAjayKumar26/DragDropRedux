@@ -1,0 +1,36 @@
+.file-upload {
+    border: 2px dashed #007bff;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.file-upload:hover {
+    background-color: #f8f9fa;
+    border-color: #0056b3;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .file-upload {
+        padding: 15px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .file-upload {
+        padding: 10px;
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .file-upload {
+        padding: 30px;
+        font-size: 18px;
+    }
+}
